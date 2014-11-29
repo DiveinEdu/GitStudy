@@ -24,6 +24,8 @@
     
     [self print];
     [self play];
+    
+    NSLog(@"yyy");
 }
 
 - (void)study
