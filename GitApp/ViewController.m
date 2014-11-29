@@ -21,7 +21,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self play];
+}
+
+- (void)play
+{
+    NSLog(@"A apple a day, keep the doctor away!");
 }
 
 - (void)didReceiveMemoryWarning {
