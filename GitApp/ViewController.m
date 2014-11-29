@@ -14,6 +14,11 @@
 
 @implementation ViewController
 
+- (void)print
+{
+    NSLog(@"这是一个打印信息");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
