@@ -23,11 +23,17 @@
     [super viewDidLoad];
     
     [self print];
+    [self play];
 }
 
 - (void)study
 {
     NSLog(@"好好学习，天天向上");
+}
+
+- (void)play
+{
+    NSLog(@"A apple a day, keep the doctor away!");
 }
 
 - (void)didReceiveMemoryWarning {
