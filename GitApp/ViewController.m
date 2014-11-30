@@ -26,6 +26,8 @@
     [self play];
     
     NSLog(@"yyy");
+    
+    NSLog(@"xxxxx");
 }
 
 - (void)study
